@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 169, 91) ;
+    background: linear-gradient(45deg,rgba(241,169,91,1)27%,rgb(180,86,235,1)100%);
+    /* text-align: center; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card{
+    position: relative;
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 300px;
+    width: 60%;
+    background-color: white;
+    border: 1px solid wheat;
+    box-shadow: 0.1px 1px wheat;
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover{
+   height: 460px;
+}
+
+.image{
+    width: 45%;
+    border-radius: 5px;
+    position: absolute;
+    left: 27%;
+    top: -6%;
+}
+
+.sub-card{
+border-radius: 5px;
+ background-color: white;
+ transition: all 0.4s ease-in-out;
+ height: 50px;
+}
+
+.sub-card:hover{
+    height: 25%;
+}
+
+
+.text-up{
+  margin-top: 215px;
+  
+}
+
+.text-up:hover{
+    /* margin-top: 15px; */
+}
+
+.name{
+    text-align: center;
+}
+
+.work{
+    text-align: center;
+    margin-top: 2px;
+    color: darkgray;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    padding-left: 40px;
+    backgr
+}
+
+.details:hover{
+  
+    
+}
+
+
+h3{
+    padding-right: 60px;
+    font-size: 25px;
+}
+
+.post{
+    color: rgb(177, 161, 161);
+}
+
+.btn{
+      display: flex;
+      justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-right: 85px;
+    padding-left: 85px;
+    
+}
+
+.follow{
+    
+    text-decoration: none;
+    color: white;
+    background-color: rgb(192, 24, 24);
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+.follow:hover{
+    background-color: rgb(136, 127, 127);
+}
+
+.message{
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 173, 173);
+    color: black;
+}
+
+.message:hover{
+    background-color: rgb(128, 121, 121);
+}
+
+
